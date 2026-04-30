@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 354.87 347.17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #fff;
+        opacity: .2;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="9.23" y1="341.79" x2="345.64" y2="5.38" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity=".05"/>
+      <stop offset=".03" stop-color="#fff" stop-opacity=".07"/>
+      <stop offset=".05" stop-color="#fff" stop-opacity=".11"/>
+      <stop offset=".08" stop-color="#fff" stop-opacity=".19"/>
+      <stop offset=".1" stop-color="#fff" stop-opacity=".31"/>
+      <stop offset=".13" stop-color="#fff" stop-opacity=".45"/>
+      <stop offset=".16" stop-color="#fff" stop-opacity=".63"/>
+      <stop offset=".18" stop-color="#fff" stop-opacity=".83"/>
+      <stop offset=".2" stop-color="#fff"/>
+      <stop offset=".8" stop-color="#fff"/>
+      <stop offset=".8" stop-color="#fff" stop-opacity=".96"/>
+      <stop offset=".83" stop-color="#fff" stop-opacity=".75"/>
+      <stop offset=".85" stop-color="#fff" stop-opacity=".56"/>
+      <stop offset=".87" stop-color="#fff" stop-opacity=".4"/>
+      <stop offset=".89" stop-color="#fff" stop-opacity=".28"/>
+      <stop offset=".92" stop-color="#fff" stop-opacity=".18"/>
+      <stop offset=".94" stop-color="#fff" stop-opacity=".11"/>
+      <stop offset=".97" stop-color="#fff" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#fff" stop-opacity=".05"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <rect class="cls-2" x="0" y="0" width="354.87" height="347.17" rx="24.95" ry="24.95"/>
+      <path class="cls-1" d="M329.92,1c13.21,0,23.95,10.74,23.95,23.95v297.27c0,13.21-10.74,23.95-23.95,23.95H24.95c-13.21,0-23.95-10.74-23.95-23.95V24.95C1,11.74,11.74,1,24.95,1h304.97M329.92,0H24.95C11.17,0,0,11.17,0,24.95v297.27c0,13.78,11.17,24.95,24.95,24.95h304.97c13.78,0,24.95-11.17,24.95-24.95V24.95c0-13.78-11.17-24.95-24.95-24.95h0Z"/>
+    </g>
+  </g>
+</svg>

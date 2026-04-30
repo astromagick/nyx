@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="uuid-2bc31fca-7565-4978-ba1c-5c49aae9a0cd" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.06 9.41">
+  <defs>
+    <style>
+      .uuid-56080c57-a07e-4851-9bef-526a94368834 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="uuid-455c1acb-dc0c-4892-8cda-ff81bb5db35e" data-name="Layer 1">
+    <path class="uuid-56080c57-a07e-4851-9bef-526a94368834" d="M9.01,9.01l6.64-6.64c.87-.87.26-2.37-.98-2.37H1.39C.15,0-.47,1.5.41,2.37l6.64,6.64c.54.54,1.42.54,1.96,0Z"/>
+  </g>
+</svg>

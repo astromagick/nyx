@@ -1,0 +1,196 @@
+.productsList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(266px, 1fr));
+    gap: 60px;
+    align-items: stretch;
+}
+
+.productsList article {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(34, 28, 55);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: "inter", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.productsList article:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 16px rgba(255, 255, 255, 0.109);
+}
+
+.productsList article a{
+    width: 100%;
+    height: 180px;
+    transition: transform 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.107);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.productsList article a img {
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+    transition: transform 0.3s ease;
+}
+
+.productsList article h1{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-size: 24px;
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+}
+
+.productsList article h2{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-size: 22px;
+    font-family: "inter", sans-serif;
+    font-weight: normal;
+}
+
+.productsList article h3{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-size: 18px;
+    font-family: "inter", sans-serif;
+    font-weight: normal;
+    color: rgb(189, 189, 189);
+    margin-top: -25px;
+    margin-bottom: -25px;
+}
+
+.productsList article p{
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: "inter", sans-serif;
+    font-weight: normal;
+    color: rgb(189, 189, 189);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 0;
+}
+
+.actionButtons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: -15px;
+}
+
+.actionButtons button {
+    width: 100%;
+    background-color: rgb(158, 68, 255);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "inter", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    padding: 5px;
+}
+
+.categoryNav {
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background-color: rgb(34, 28, 55);
+    border-radius: 40px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.categoryNav a {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
+    border-radius: 40px;
+    text-align: center;
+    align-content: center;
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+
+.categoryNav a.active {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(42, 34, 68);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    text-align: center;
+    align-content: center;
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(95, 178, 255);
+}
+
+.categoryNav a:hover {
+    background-color: rgb(42, 34, 68);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.categoryNav button {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0);
+    border-radius: 40px;
+    text-align: center;
+    align-content: center;
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+}
+
+.categoryNav button:hover {
+    background-color: rgb(42, 34, 68);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cartCount {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: rgb(158, 68, 255);
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+}
