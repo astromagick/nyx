@@ -5,7 +5,7 @@ if (track) {
     const slides = Array.from(track.children);
 
     let currentIndex = 0;
-    const slideInterval = 8000; // milliseconds
+    const slideInterval = 5000; // milliseconds
 
     function moveToNextSlide() {
         currentIndex++; // note: the ++ is +1 
@@ -37,4 +37,4 @@ if (track) {
     });
 }
 
-//ashton smith 24505
+//ashton s. 24505

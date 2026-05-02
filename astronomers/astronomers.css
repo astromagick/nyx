@@ -45,6 +45,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;         /* ensure it fills the viewport */
     color: white;
+    font-family: "inter", sans-serif;
     /*background-image: url("https://images2.alphacoders.com/649/thumb-1920-649639.jpg");*/
 }
 
@@ -80,34 +81,34 @@ ul {
 
 li a {
     text-align: center;
-    font-family: helvetica, sans-serif;
+    font-family: "inter", sans-serif;
     text-decoration: none;
     font-size: 20px;
 }
 
 h1 {
-    font-family: 'helvetica', sans-serif;
+    font-family: "inter", sans-serif;
     font-weight: bold;
     font-size: 48px;
     margin-top: 0;
 }
 
 h2 {
-    font-family: 'helvetica', sans-serif;
+    font-family: "inter", sans-serif;
     font-weight: bold;
     font-size: 36px;
     margin-top: 0;
 }
 
 h3 {
-    font-family: 'helvetica', sans-serif;
+    font-family: "inter", sans-serif;
     font-weight: normal;
     font-size: 24px;
     margin-top: 0;
 }
 
 p {
-    font-family: 'helvetica', sans-serif;
+    font-family: "inter", sans-serif;
     font-weight: normal;
     font-size: 18px;
     line-height: 1.5;
@@ -127,7 +128,7 @@ p {
 
 .button {
     border-radius: 15px;
-    font-family: 'helvetica', sans-serif;
+    font-family: "inter", sans-serif;
     font-weight: normal;
     color: rgb(177, 177, 177);
     height: 60%;
@@ -144,7 +145,7 @@ p {
 }
 .buttonActive {
     border-radius: 15px;
-    font-family: 'helvetica', sans-serif;
+    font-family: "inter", sans-serif;
     color: black; 
     background-color: white;
     font-weight: bold;
@@ -178,7 +179,7 @@ p {
     justify-content: center;
     gap: 8px;
     border-radius: 15px;
-    font-family: 'helvetica', sans-serif;
+    font-family: "inter", sans-serif;
     font-weight: normal;
     padding: 8px 12px;
 }
@@ -237,6 +238,7 @@ p {
     margin-top: 20px;
     position: relative;
     display: flex;
+    scrollbar-color: rgba(255, 255, 255, 0.146) transparent;
 }
 
 .module {
@@ -300,7 +302,7 @@ p {
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 15px;
-    font-family: 'helvetica', sans-serif;
+    font-family: "inter", sans-serif;
     font-weight: bold;
     color: white;
     backdrop-filter: blur(3px);
@@ -432,7 +434,7 @@ p {
     background-color: rgba(255, 255, 255, 0.245);
     border-radius: 8px;
     padding: 5px 10px;
-    font-family: 'helvetica', sans-serif;
+    font-family: "inter", sans-serif;
     font-weight: normal;
     color: white;
     font-size: 16px;
@@ -446,7 +448,7 @@ p {
     justify-content: left;
     gap: 8px; /* spacing between icon and text */
     border-radius: 15px;
-    font-family: 'montserrat', sans-serif;
+    font-family: "inter", sans-serif;
     font-weight: normal;
     padding: 0 12px;
     background: linear-gradient(to top,
@@ -509,7 +511,7 @@ input:checked + .slider:before {
     border-radius: 15px;
     padding: 20px;
     color: rgb(255, 255, 255);
-    font-family: 'helvetica', sans-serif;
+    font-family: "inter", sans-serif;
     font-weight: normal;
     text-align: left;
     text-wrap: wrap ;
@@ -522,7 +524,7 @@ input:checked + .slider:before {
     height: 120px;
     backdrop-filter: blur(10px);
     mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
-    -webkit-mask-image: linear-gradient(to bottom, black 0%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
     top: 0;
 }
 

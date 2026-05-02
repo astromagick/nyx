@@ -217,4 +217,4 @@ function updateCartTotals(items, cost) {
     if (costBtn) costBtn.innerText = `Total: $${cost.toFixed(2)}`;
 }
 
-//ashton smith 24505
+//ashton s. 24505

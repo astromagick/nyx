@@ -107,4 +107,4 @@ const canvas = document.getElementById('bgCanvas'); // the canvas
 
     animate();
 
-//ashton smith 24505
+//ashton s. 24505

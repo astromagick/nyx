@@ -31,4 +31,4 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-//ashton smith 24505
+//ashton s. 24505
