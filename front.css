@@ -1,26 +1,26 @@
 @font-face {
     font-family: 'helvetica';
-    src: url('asset/fonts/helvetica/Helvetica.ttf') format('truetype');
+    src: url('asset/FONTS/helvetica/Helvetica.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'helvetica';
-    src: url('asset/fonts/helvetica/Helvetica-Bold.ttf') format('truetype');
+    src: url('asset/FONTS/helvetica/Helvetica-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'inter';
-    src: url('asset/fonts/inter/static/Inter_28pt-Regular.ttf') format('truetype');
+    src: url('asset/FONTS/inter/static/Inter_28pt-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'inter';
-    src: url('asset/fonts/inter/static/Inter_28pt-Bold.ttf') format('truetype');
+    src: url('asset/FONTS/inter/static/Inter_28pt-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -32,7 +32,7 @@ body, html {
     min-height: 100vh;
     overflow-x: hidden; 
     font-family: Arial, sans-serif;
-    scrollbar-color: rgba(255, 255, 255, 0.146) transparent;
+    scrollbar-color: rgba(255, 255, 255, 0.146) #20143a;
     display: flex;
     flex-direction: column;
 }
@@ -254,6 +254,7 @@ p {
 .joinBtn {
     position: relative;
     margin-top: 80px;
+    margin-bottom: 80px;
     text-decoration: none;
     justify-self: center;
     align-self: center;

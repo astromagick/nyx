@@ -1,26 +1,26 @@
 @font-face {
     font-family: 'helvetica';
-    src: url('../asset/fonts/helvetica/Helvetica.ttf') format('truetype');
+    src: url('../asset/FONTS/helvetica/Helvetica.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'helvetica';
-    src: url('../asset/fonts/helvetica/Helvetica-Bold.ttf') format('truetype');
+    src: url('../asset/FONTS/helvetica/Helvetica-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'inter';
-    src: url('../asset/fonts/inter/static/Inter_28pt-Regular.ttf') format('truetype');
+    src: url('../asset/FONTS/inter/static/Inter_28pt-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'inter';
-    src: url('../asset/fonts/inter/static/Inter_28pt-Bold.ttf') format('truetype');
+    src: url('../asset/FONTS/inter/static/Inter_28pt-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
