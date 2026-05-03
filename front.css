@@ -361,7 +361,7 @@ p {
             opacity: 1;
         }
     }
-    #mainNav.active {
+    #mainNavUl.active {
         display: flex; 
         animation: in 0.15s ease-out 0s 1 normal none;
     }
