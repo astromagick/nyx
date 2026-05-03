@@ -145,7 +145,6 @@ p {
     font-weight: normal;
     color: black; 
     background-color: white;
-    font-weight: bold !important;
     /* text-transform: uppercase; */
 }
 
@@ -288,7 +287,6 @@ p {
     width: 20%;
     transform-origin: center;
     flex-direction: row;
-    height: 100%;
     top: 15px;
     height: clamp(15px, 60vh, 40px);
 }
