@@ -5,9 +5,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nyx / about</title>
-    <link rel="stylesheet" type="text/css" href="../front.css">
-    <link rel="icon" type="image/png" href="../asset/PNG/favicon4.png">
+    <title>nyx / support</title>
+    <link rel="stylesheet" type="text/css" href="front.css">
+    <link rel="icon" type="image/png" href="asset/PNG/favicon4.png">
 </head>
 <body>
     <!--
@@ -29,6 +29,49 @@
                 <h3>2 Macleans Road, Auckland, NZ</h3>
                 <h3>or Email us at support@nyx.com</h3>
             </div>
+        </div>
+        <h2 style="color: #ffffff; margin-top: 50px;text-align: left;">Request a ticket</h2>
+        <div class="login-container" style="width: 65%;">
+            <h1 class="loginTitle">Support ticket</h1>
+            <form class="loginInputBG">
+                <label class="loginInput" for="email">Email:</label>
+                <input class="loginInput" type="email" id="email" name="email" required placeholder="Email">
+                <label class="loginInput" for="username">Username:</label>
+                <input class="loginInput" type="text" id="username" name="username" required placeholder="Username">
+                
+                <label class="loginInput" for="issueType">Type of Issue:</label>
+                <select class="loginInput" id="issueType" name="issueType" required>
+                    <option value="" disabled selected>Select an issue type</option>
+                    <option value="account">Account Issues</option>
+                    <option value="billing">Billing and Payments</option>
+                    <option value="technical">Technical Support</option>
+                    <option value="feedback">Feedback and Suggestions</option>
+                    <option value="report-user">Report a User</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label class="loginInput" for="issueDescription">Describe the issue:</label>
+                <input class="loginInput" type="text" id="issueDescription" name="issueDescription" required placeholder="Please provide a detailed description of the issue you are experiencing. This will help us assist you more effectively.">
+
+                
+                <label class="loginInput" for="rating">Rate us please!</label>
+                <div style="display: flex;flex-direction: row;gap: 5px;align-items: center;justify-items: center;">
+                    <input class="loginInput" type="radio" id="rating" name="rating">
+                    <label class="loginInput" for="rating">Dissatisfied</label>
+                    <input class="loginInput" type="radio" id="rating" name="rating">
+                    <label class="loginInput" for="rating">Neutral</label>
+                    <input class="loginInput" type="radio" id="rating" name="rating">
+                    <label class="loginInput" for="rating">Somewhat satisfied</label>
+                    <input class="loginInput" type="radio" id="rating" name="rating">
+                    <label class="loginInput" for="rating">Satisfied</label>
+                    <input class="loginInput" type="radio" id="rating" name="rating">
+                    <label class="loginInput" for="rating">Very satisfied</label>
+                </div>
+                <label class="loginCheckbox" for="upd"><input class="loginInput" type="checkbox" id="upd" name="upd"><span>I would like to receive a follow up to this ticket via email or phone.</span></label>
+
+                <button type="submit" class="loginInputSubmit">Submit</button>
+            </form>
+            <a href="404.html">Technical Issue? Visit our help center instead.</a>
         </div>
     </div>
 
@@ -150,7 +193,7 @@
                 <li class="button"><a href="404.html">Education</a></li>
                 <li class="button"><a href="404.html">Developers</a></li>
                 <li class="button"><a href="about.html">About</a></li>
-                <li class="button"><a href="support/support.html">Support</a></li>
+                <li class="button"><a href="support.html">Support</a></li>
                 <li class="button"><button id="languageButton" style="background: none;border: none;"><svg width="20px" height="20px" viewBox="0 0 24 24" fill="#ffffff" xmlns="http://www.w3.org/2000/svg"><path d="M12,24C5.4,24,0,18.6,0,12S5.4,0,12,0s12,5.4,12,12S18.6,24,12,24z M9.5,17c0.6,3.1,1.7,5,2.5,5s1.9-1.9,2.5-5H9.5z
                 M16.6,17c-0.3,1.7-0.8,3.3-1.4,4.5c2.3-0.8,4.3-2.4,5.5-4.5H16.6z M3.3,17c1.2,2.1,3.2,3.7,5.5,4.5c-0.6-1.2-1.1-2.8-1.4-4.5H3.3
                 z M16.9,15h4.7c0.2-0.9,0.4-2,0.4-3s-0.2-2.1-0.5-3h-4.7c0.2,1,0.2,2,0.2,3S17,14,16.9,15z M9.2,15h5.7c0.1-0.9,0.2-1.9,0.2-3
