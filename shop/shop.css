@@ -224,3 +224,49 @@
     transform: translateX(0);
     opacity: 1;
 }
+
+.psearchbar {
+    display: flex;
+    position: absolute;
+    margin-top: 20px;
+    width: 50%;
+    height: 30px;
+    background-color:rgb(34, 28, 55);
+    border-radius: 15px;
+    padding: 10px;
+    justify-self: center;
+}
+
+.psearchbarinput {
+    position: absolute;
+    font-family: "inter", sans-serif;
+    font-weight: normal;
+    align-self: center;
+    justify-self: start;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-size: 20px;
+    border: none;
+    text-decoration: none;
+    left: 35px;
+}
+
+.psearchbarinput:focus {
+    outline: none;
+}
+
+.psearchbarsubmit {
+    position: absolute;
+    right: 10px;
+    background-color: rgb(42, 34, 68);
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-family: "inter", sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}

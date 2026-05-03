@@ -395,7 +395,6 @@ p {
 
 .csearchbarinput {
     position: absolute;
-    font-family: helvetica, sans-serif;
     font-weight: normal;
     align-self: center;
     justify-self: start;
@@ -406,6 +405,7 @@ p {
     border: none;
     text-decoration: none;
     left: 35px;
+    font-family: "inter", sans-serif;
 }
 
 .csearchbarinput:focus {
