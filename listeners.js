@@ -4,6 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const menuToggle = document.getElementById('mobile-menu');
     const navLinks = document.getElementById('mainNavUl')
 
+    console.log(navLinks);
+    
+
     const languageToggle = document.getElementById('languageButton');
     const languagePrompt = document.getElementById('languagePrompt'); 
 
