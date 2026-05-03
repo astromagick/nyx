@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     // reference constants
     const menuToggle = document.getElementById('mobile-menu');
-    const navLinks = document.querySelector('ul'); 
+    const navLinks = document.getElementById('mainNavUl')
 
     const languageToggle = document.getElementById('languageButton');
     const languagePrompt = document.getElementById('languagePrompt'); 

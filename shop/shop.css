@@ -180,7 +180,7 @@
 
 .cartCount {
     position: absolute;
-    top: -10px;
+    top: 0px;
     right: -10px;
     background-color: rgb(158, 68, 255);
     color: white;
@@ -193,4 +193,34 @@
     font-size: 12px;
     font-family: "inter", sans-serif;
     font-weight: bold;
+}
+
+#notification-container {
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    z-index: 101; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    pointer-events: none; 
+}
+
+.cart-notification {
+    background-color: rgb(42, 34, 68);
+    color: rgb(255, 255, 255); 
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-family: 'inter', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    transform: translateX(120%);
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+
+.cart-notification.active {
+    transform: translateX(0);
+    opacity: 1;
 }

@@ -1,26 +1,26 @@
 @font-face {
     font-family: 'helvetica';
-    src: url('asset/fonts/helvetica/Helvetica.ttf') format('truetype');
+    src: url('../asset/fonts/helvetica/Helvetica.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'helvetica';
-    src: url('asset/fonts/helvetica/Helvetica-Bold.ttf') format('truetype');
+    src: url('../asset/fonts/helvetica/Helvetica-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'inter';
-    src: url('asset/fonts/inter/static/Inter_28pt-Regular.ttf') format('truetype');
+    src: url('../asset/fonts/inter/static/Inter_28pt-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'inter';
-    src: url('asset/fonts/inter/static/Inter_28pt-Bold.ttf') format('truetype');
+    src: url('../asset/fonts/inter/static/Inter_28pt-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -60,7 +60,7 @@ html {
 ================================================
 */
 
-ul {
+#mainNavUl {
     margin-top: 0;
     gap: 15px;
     align-items: center;
@@ -69,9 +69,10 @@ ul {
     display: flex;
     justify-self:center;
     justify-content: center;
+    padding-inline-start:0;
 }
 
-.hnav {
+.horizontalNavigator {
     position: fixed;
     top: 15px;
     height: clamp(15px, 60vh, 40px);
@@ -207,7 +208,7 @@ p {
     transform: translate(-50%, -0%);
 }
 
-#gbghnav {
+#gbghorizontalNavigator {
     display: flex;
     position: fixed;
     gap: 15px;
@@ -350,13 +351,13 @@ p {
     z-index: 100;
 }
 
-/* --- when screen is smaller than 900px --- */
-@media (max-width: 900px) {
+/* --- when screen is smaller than 1000px --- */
+@media (max-width: 1000px) {
     .menu-toggle {
         display: block; 
     }
     
-    ul {
+    #mainNavUl  {
         display: none; 
         position: absolute;
         top: 70px; 
@@ -459,7 +460,6 @@ p {
     margin-top: 10px;
 }
 
-/* Switch container */
 .switch {
   position: relative;
   display: inline-block;
@@ -467,14 +467,12 @@ p {
   height: 28px;
 }
 
-/* Hide checkbox */
 .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
 
-/* Slider */
 .slider {
   position: absolute;
   cursor: pointer;

@@ -1,4 +1,4 @@
-const productDatabase = [
+const productDatabase = [ // preset data table for each item when displaying cart items
     {
         id: "zero_indigo",
         name: "ZERO (indigo)",
@@ -124,9 +124,17 @@ function addToCart(id) {
     if (existingItem) {
         existingItem.quantity += 1;
     } else {
-        cart.push({ id: id, quantity: 1 }); 
+        cart.push({ id: id, quantity: 1 });
     }
     saveCart(cart);
+
+    // toasts functs when cart actions
+    const dbProduct = productDatabase.find(p => p.id === id);
+    if (dbProduct) {
+        showNotification(`Added ${dbProduct.name} to cart`);
+    } else {
+        showNotification(`Item added to cart`);// fallback just in case
+    }
 }
 
 function updateGlobalCartCount() {
@@ -154,12 +162,12 @@ function renderCartPage() {
     }
 
     cart.forEach(cartItem => {
-        const dbProduct = productDatabase.find(p => p.id === cartItem.id);
+        const dbProduct = productDatabase.find(p => p.id === cartItem.id); // get the preset from hte table and apply it to the newly created item container
         
         if (dbProduct) {
             totalItems += cartItem.quantity;
             totalPrice += (dbProduct.price * cartItem.quantity);
-
+            
             const article = document.createElement('article');
             article.innerHTML = `
                 <a href="${dbProduct.productUrl}">
@@ -217,4 +225,28 @@ function updateCartTotals(items, cost) {
     if (costBtn) costBtn.innerText = `Total: $${cost.toFixed(2)}`;
 }
 
+// TOASTT NOTIFS
+function showNotification(message) {
+    let container = document.getElementById('notification-container');
+
+    const notification = document.createElement('div');
+    notification.classList.add('cart-notification');
+    notification.innerText = message;
+
+    container.appendChild(notification);
+    
+    setTimeout(() => { // note: it's like task.delay()
+        notification.classList.add('active');
+    }, 10);
+
+    setTimeout(() => {
+        notification.classList.remove('active');
+        
+        setTimeout(() => {
+            notification.remove();//buffer- wait for slide out first before destroying 
+        }, 300);
+    }, 3000);
+}
+
 //ashton s. 24505
+
