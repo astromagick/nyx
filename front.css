@@ -836,7 +836,7 @@ footer p {
 .searchbar {
     display: flex;
     position: absolute;
-    margin-top: 20px;
+    top:100px;
     width: 60%;
     height: 40px;
     background-color:rgb(34, 28, 55);
