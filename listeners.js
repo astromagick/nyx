@@ -10,6 +10,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const languageToggle = document.getElementById('languageButton');
     const languagePrompt = document.getElementById('languagePrompt'); 
 
+    const searchToggle = document.getElementById('searchButton');
+    const searchPrompt = document.getElementById('searchPrompt');
+
+
     const dropdownButtonProducts = document.getElementById('productButton');
     const dropdownProducts = document.getElementById('productsDropDown'); 
     const dropdownHitbox = document.getElementById('dropdownHitbox');
@@ -31,6 +35,14 @@ document.addEventListener("DOMContentLoaded", () => {
     dropdownHitbox.addEventListener('mouseleave', () => {  // navigation dropdowns hitbox exit
         dropdownProducts.classList.remove('active'); // note: .remove is forced false function of toggle
         dropdownHitbox.classList.remove('active-hitbox'); // turns the hitbox shield OFF
+    });
+
+    searchToggle.addEventListener('click', () => { // search button var add
+        searchPrompt.classList.add('active');
+    });
+
+    searchPrompt.addEventListener('click', () => { // search button var remove
+        searchPrompt.classList.remove('active');
     });
 });
 
