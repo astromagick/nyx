@@ -827,6 +827,7 @@ footer p {
     background-color: #00000061;
     backdrop-filter: blur(10px);
     z-index: 100;
+    border: none;
 }
 
 .searchbarContainer.active {
@@ -869,6 +870,7 @@ footer p {
 .searchbarsubmit {
     position: absolute;
     right: 10px;
+    top: 25%;
     background-color: rgb(42, 34, 68);
     border-radius: 8px;
     padding: 5px 10px;
